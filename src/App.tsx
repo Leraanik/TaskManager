@@ -6,7 +6,7 @@ import { TaskProvider } from './context/TaskContext';
 function App() {
   return (
     <TaskProvider>
-      <Router>
+      <Router basename="/TaskManager">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/task/:id" element={<TaskDetails />} />
