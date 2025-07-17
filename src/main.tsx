@@ -6,7 +6,7 @@ import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/TaskManager">
+    <BrowserRouter  basename="/TaskManager2/dist">
       <App />
     </BrowserRouter>
   </React.StrictMode>
